@@ -1,0 +1,123 @@
+.img{
+    width: 100%;
+}
+.col-sm {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .bdr {
+    border-right: 2px solid white;
+  }
+
+  button {
+    width: 6rem;
+    cursor: pointer;
+    border: none;
+    background-color: #0093dc;
+    color: white;
+
+    img {
+      width: 50px;
+    }
+  }
+
+  .navigation {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 119.02%;
+    /* identical to box height, or 29px */
+
+    color: #0093dc;
+  }
+
+  .row1 {
+    background: #0093dc;
+    box-shadow: 0px 14px 40px rgba(0, 0, 0, 0.207);
+    /* border-radius: 10px; */
+    // height: 132px;
+    border-radius: 0 0 1rem 1rem;
+  }
+
+  .row2 {
+    background-color: transparent;
+    color: #0093dc;
+    border: 2px solid #0093dc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem 1rem 0 0;
+  }
+  .row {
+    box-shadow: 0px 14px 40px rgba(0, 0, 0, 0.207);
+  }
+
+  .info {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 119.02%;
+    /* identical to box height, or 38px */
+
+    color: #0093dc;
+  }
+
+  .col {
+    background-color: #0093dc;
+    height: 106px;
+    padding: 2rem;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid white;
+    justify-content: center;
+    align-items: center;
+
+    &:last-child {
+      border-right: none;
+    }
+
+    img {
+      width: 30px;
+      cursor: pointer;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+

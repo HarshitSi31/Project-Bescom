@@ -1,0 +1,36 @@
+.faq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 550px;
+}
+
+.mat-grid-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  // height: 480px;
+  // width: 1300px;
+
+  h1 {
+    padding: 1rem 0;
+  }
+}
+
+.w-75 {
+  height: 30rem;
+}
+
+.text-blue {
+  color: #0093dc;
+}
